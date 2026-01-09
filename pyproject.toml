@@ -1,0 +1,19 @@
+[project]
+name = "zz-docs-ai"
+version = "0.1.0"
+description = "Flexible Document Search API"
+authors = [
+    {name = "User", email = "user@example.com"},
+]
+dependencies = [
+    "fastapi>=0.100.0",
+    "uvicorn>=0.20.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "python-multipart>=0.0.6",
+]
+requires-python = ">=3.9"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
